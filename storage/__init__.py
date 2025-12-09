@@ -28,7 +28,7 @@ def reset_storage():
     next_event_id = 1
 
 
-# ===== Helpers communs =====
+# ===== common Helpers =====
 
 def check_room_exists(room_id: int) -> Room:
     room = rooms.get(room_id)

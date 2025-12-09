@@ -1,5 +1,3 @@
-# models/__init__.py
-
 from .rooms import Room, RoomCreate, RoomUpdate
 from .bookings import Booking, BookingCreate, BookingUpdate
 from .events import Event, EventCreate, EventStatusUpdate, EventDay

@@ -43,7 +43,6 @@ def update_booking(booking_id: int, update: BookingUpdate) -> Booking:
     for field, value in update.dict(exclude_unset=True).items():
         data[field] = value
 
-    # revalider le créneau
     from models import BookingCreate as BC
     maybe_new = BC(
         roomId=data["roomId"],
